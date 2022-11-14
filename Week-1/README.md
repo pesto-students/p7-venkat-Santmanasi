@@ -12,9 +12,9 @@ The browser's job is to build the webpage at this time. Browser builds the webpa
 
 Once you visit a website, browser keeps a copy of it in a cache and next time when you visit or request the same search your websites shows up a little faster as browser takes less data to download and send it updated to us.
 
-###Web Browser works as a Client/Server model.
+### Web Browser works as a Client/Server model.
 
-##Components of Web Browser:
+## Components of Web Browser:
 
 1. User Interface-
    It is typical page that we see once we open the browser. It gives features of search, bookmarking the web address and so on.
