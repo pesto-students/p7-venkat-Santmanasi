@@ -16,20 +16,25 @@ Once you visit a website, browser keeps a copy of it in a cache and next time wh
 
 ## Components of Web Browser:
 
-1. User Interface-
-   It is typical page that we see once we open the browser. It gives features of search, bookmarking the web address and so on.
+### 1. User Interface-
 
-2. Browser engine -
-   It connects the UI with the engine. It monitors multiple input requests.
+It is typical page that we see once we open the browser. It gives features of search, bookmarking the web address and so on.
 
-3. Networking -
-   It provides the URL and manages, privacy and communication.
+### 2. Browser engine -
 
-4. Data Storage-
-   The cookies store information as the data source is an uniform layer that the browsers use. Storage processes like IndexedDB, WebSQL, localStorage, etc works well on browsers. localStorage and sessionStorage are web storage objects that are used to share information on the browser.
+It connects the UI with the engine. It monitors multiple input requests.
 
-5. JavaScript Interpreter-
-   It interpretes request into javascript code document and executes it. Then engine shows the translation on the screen to the users.
+### 3. Networking -
+
+It provides the URL and manages, privacy and communication.
+
+### 4. Data Storage-
+
+The cookies store information as the data source is an uniform layer that the browsers use. Storage processes like IndexedDB, WebSQL, localStorage, etc works well on browsers. localStorage and sessionStorage are web storage objects that are used to share information on the browser.
+
+### 5. JavaScript Interpreter-
+
+It interpretes request into javascript code document and executes it. Then engine shows the translation on the screen to the users.
 
 ## How does a rendering machine work?
 
