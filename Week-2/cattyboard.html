@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CattyBoard</title>
+    <style>
+      .first {
+        display: flex;
+        text-align: center;
+        background-color: grey;
+      }
+      .img1 {
+        display: flex;
+        position: absolute;
+        padding: 30%;
+      }
+
+      #playlist {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      #playlist td {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+
+      #playlist tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      #playlist tr:hover {
+        background-color: #ddd;
+      }
+
+      .play-pause {
+        display: flex;
+        background-color: brown;
+        width: 10;
+        height: fit-content;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first">
+      <img src="https://vif1g.csb.app/src/assets/cattyboard.jpg" alt="img" />
+      <h1>CattyBoard Top 100 Single charts(11.06.36)</h1>
+      <h5>Unknown Artist</h5>
+      <h5>2016.charts.100songs</h5>
+      <div class="play-pause">
+        <input
+          type="checkbox"
+          value=""
+          id="playPauseCheckbox"
+          name="playPauseCheckbox"
+        />
+        <label for="playPauseCheckbox"></label>
+      </div>
+    </div>
+    <div class="second">
+      <table id="playlist">
+        <tr>
+          <td>One Dance</td>
+          <td>Crake feat Catkid & Cyla</td>
+          <td>2:54</td>
+          <td>CATTY CLOUD SYNC</td>
+        </tr>
+        <tr>
+          <td>Panda</td>
+          <td>Catte</td>
+          <td>4:06</td>
+          <td>CATTY CLOUD SYNC</td>
+        </tr>
+        <tr>
+          <td>Cant stop the feeling!</td>
+          <td>Catin Cimberlake</td>
+          <td>3:56</td>
+          <td>CATTY CLOUD SYNC</td>
+        </tr>
+        <tr>
+          <td>Work from Home</td>
+          <td>Cat Harmony feat cola</td>
+          <td>3:34</td>
+          <td>CATTY CLOUD SYNC</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
